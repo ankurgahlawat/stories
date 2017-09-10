@@ -34,10 +34,11 @@ if (!$conn) {
       if($count == 1) {
     //     session_register("username");
          $_SESSION['login_user'] = $username;
+        // $_COOKIE['login_user'] = $username;
          header("location: home.php");
       }else {
         echo "<script type='text/javascript'>alert('Please enter valid Username and password.')</script>";
-     header('location:index.html');   
+        echo("<script type='text/javascript'>window.location = 'index.html'</script>");   
       }
    }
 ?>

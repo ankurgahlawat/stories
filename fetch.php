@@ -15,7 +15,7 @@ $states=mysqli_query($conn,"SELECT * FROM users WHERE username LIKE '%$partialSt
 $count= mysqli_num_rows($states);
 if($count==0)
 {
-	echo "<div class='col-sm-12'>"."sorry no result found "."</div>";
+	echo "<div class='col-sm-12'>"."Sorry, no results found "."</div>";
 }
 else
 {

@@ -36,12 +36,15 @@ body {
   margin: 0;
   padding: 0;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+  position: relative;
+  display: inline-block;
 }
-
 .side {
   padding: 0;
   margin: 0;
   height: 100%;
+  display: inline-block;
+  border-right: 1px solid #EEEEEE;
 }
 .side-one {
   padding: 0;
@@ -50,15 +53,16 @@ body {
   width: 100%;
   z-index: 1;
   position: relative;
-  display: block;
+  display: inline-block;
   top: 0;
+   border-right: 1px solid #EEEEEE;
 }
 .heading {
   padding: 10px 16px 10px 15px;
   margin: 0;
   height: 60px;
   width: 100%;
-  background-color: #eee;
+  background-color: #4896B1;
   z-index: 1000;
 }
 
@@ -138,3 +142,5 @@ body {
   padding: 10px !important;
   background-color: #fbfbfb;
 }
+
+
